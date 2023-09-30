@@ -27,7 +27,11 @@ export default function Header() {
   ];
 
   return (
-    <Navbar disableAnimation isBordered>
+    <Navbar
+      disableAnimation
+      isBordered
+      className="[&>header]:w-full [&>header]:container [&>header]:mx-auto bg-slate-900 border-none"
+    >
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle />
       </NavbarContent>
@@ -38,7 +42,7 @@ export default function Header() {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem isActive>
-          <Link href="#" aria-current="page">
+          <Link href="#" aria-current="page" className="text-orange-600">
             Homepage
           </Link>
         </NavbarItem>
@@ -50,7 +54,12 @@ export default function Header() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
+          <Button
+            as={Link}
+            className="bg-orange-600/20 text-orange-600 hover: "
+            href="#"
+            variant="flat"
+          >
             Join Us!
           </Button>
         </NavbarItem>
