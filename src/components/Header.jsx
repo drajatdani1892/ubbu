@@ -42,13 +42,23 @@ export default function Header() {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem isActive>
-          <Link href="#" aria-current="page" className="text-orange-600">
-            Homepage
+          <Link href="#" aria-current="page" className="text-yellow-500">
+            Beranda
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
-            Integrations
+            Visi & Misi
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            Kegiatan
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            Kepungurusan
           </Link>
         </NavbarItem>
       </NavbarContent>
@@ -56,11 +66,11 @@ export default function Header() {
         <NavbarItem>
           <Button
             as={Link}
-            className="bg-orange-600/20 text-orange-600 hover: "
+            className="bg-yellow-500/20 text-yellow-500 hover: "
             href="#"
             variant="flat"
           >
-            Join Us!
+            Join with Us!
           </Button>
         </NavbarItem>
       </NavbarContent>
