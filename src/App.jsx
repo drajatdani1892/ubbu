@@ -21,7 +21,7 @@ function App() {
                 "Embrace the challenge, be part of UBBU, and together, let's
                 embark on a relentless journey to seize the ultimate glory!"
               </p>
-              <button class="bg-yellow-500 hover:bg-yellow-600 hover:ring-4 hover:ring-white text-white font-semibold py-2 px-4 rounded-lg">
+              <button class="bg-yellow-500 hover:bg-yellow-500/50 hover:ring-1 hover:ring-slate-200 text-white font-semibold py-2 px-4 rounded-lg">
                 Let's Get Started
               </button>
             </div>
