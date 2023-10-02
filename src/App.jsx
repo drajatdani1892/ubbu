@@ -41,7 +41,9 @@ function App() {
       <section className="bg-slate-900 py-12">
         <div className="container mx-auto">
           <div className="text-center">
-            <h2 className="text-3xl font-semibold mb-2">Kegiatan UBBU</h2>
+            <h2 className="text-3xl font-semibold mb-2 underline decoration-yellow-500 underline-offset-8">
+              Kegiatan UBBU
+            </h2>
             <p className="text-gray-400">
               Berikut adalah kegiatan rutin yang dilaksanakan oleh UKM UBBU
             </p>
@@ -56,7 +58,9 @@ function App() {
               />
               <h3 className="text-xl font-semibold mt-4">3x3 Competitions</h3>
               <p className="text-gray-400 mt-2">
-                Experience thrilling 3x3 basketball competitions with us.
+                UBBU mengadakan kompetisi 3x3 untuk lingkungan kampus, ini akan
+                menjadi pengalaman terbaik kamu dalam berkompetisi dan
+                berorganisasi
               </p>
             </div>
             {/* End of Card */}
@@ -67,9 +71,11 @@ function App() {
                 alt="Image Features"
                 className="h-32 w-32 mx-auto rounded-full"
               />
-              <h3 className="text-xl font-semibold mt-4">3x3 Competitions</h3>
+              <h3 className="text-xl font-semibold mt-4">Latihan Mingguan</h3>
               <p className="text-gray-400 mt-2">
-                Experience thrilling 3x3 basketball competitions with us.
+                UBBU memiliki jadwal latihan mingguan yang terstruktur, membantu
+                anggotanya meningkatkan keterampilan dan ketahanan fisik pada
+                basket.
               </p>
             </div>
             {/* End of Card */}
@@ -80,9 +86,11 @@ function App() {
                 alt="Image Features"
                 className="h-32 w-32 mx-auto rounded-full"
               />
-              <h3 className="text-xl font-semibold mt-4">3x3 Competitions</h3>
+              <h3 className="text-xl font-semibold mt-4">Latih tanding</h3>
               <p className="text-gray-400 mt-2">
-                Experience thrilling 3x3 basketball competitions with us.
+                UBBU memiliki agenda latih tanding dengan tim basket lainnya
+                yang membuat kamu merasakan pengalaman bertanding dengan tim
+                lain.
               </p>
             </div>
             {/* End of Card */}
