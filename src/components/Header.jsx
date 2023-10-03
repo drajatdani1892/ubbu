@@ -42,36 +42,26 @@ export default function Header() {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem isActive>
-          <Link href="#" aria-current="page" className="text-yellow-500">
+          <Link href="#hero" aria-current="page" className="text-yellow-500">
             Beranda
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Visi & Misi
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="#kegiatan">
             Kegiatan
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Kepungurusan
+          <Link color="foreground" href="#kepengurusan">
+            Kepengurusan
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button
-            as={Link}
-            className="bg-yellow-500/20 text-yellow-500 hover: "
-            href="#"
-            variant="flat"
-          >
-            Join with Us!
-          </Button>
+          <button className="bg-yellow-500 hover:bg-yellow-500/50 hover:ring-1 hover:ring-slate-200 text-white font-semibold py-2 px-4 rounded-lg">
+            Join Us
+          </button>
         </NavbarItem>
       </NavbarContent>
 
